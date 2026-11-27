@@ -1,124 +1,218 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Pipeline Pack — 150 verified DTC leads for ecommerce agencies</title>
-<meta name="description" content="150 verified DTC brand leads, 150 personalized first lines and a 3-email sequence for US/UK ecommerce agencies. Free 15-lead sample. Delivered in 48 hours.">
+<meta name="color-scheme" content="light dark">
+<title>Pipeline Pack — 150 DTC leads your agency can pitch tomorrow</title>
+<meta name="description" content="150 verified DTC brand leads, 150 personalized first lines and a 3-email sequence for US/UK ecommerce agencies. Free 15-lead sample. Delivered 24 hours after payment.">
 <style>
   :root{
-    --ink:#141414; --muted:#5f5f5a; --line:#e4e2da; --paper:#fbfaf6;
+    --bg:#fbfaf6; --ink:#141414; --muted:#5f5f5a; --line:#e4e2da;
     --card:#ffffff; --accent:#1f5c3a; --accent-soft:#eaf3ed; --warm:#f3efe4;
+    --shadow:0 1px 2px rgba(20,20,20,.04), 0 12px 30px rgba(20,20,20,.05);
+  }
+  html[data-theme="dark"]{
+    --bg:#0f1110; --ink:#f2f1ec; --muted:#a8a8a0; --line:#2a2d2a;
+    --card:#171a18; --accent:#7fd1a3; --accent-soft:#16251d; --warm:#1e211e;
+    --shadow:0 1px 2px rgba(0,0,0,.3), 0 12px 30px rgba(0,0,0,.25);
   }
   *{box-sizing:border-box}
   html{scroll-behavior:smooth}
-  body{margin:0;background:var(--paper);color:var(--ink);
-    font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+  html,body{max-width:100%;overflow-x:hidden}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing:antialiased}
   a{color:var(--accent)}
-  .wrap{max-width:1040px;margin:0 auto;padding:0 22px}
-  header{padding:22px 0;border-bottom:1px solid var(--line)}
-  .nav{display:flex;align-items:center;justify-content:space-between;gap:16px}
-  .brand{font-weight:800;letter-spacing:-.03em;font-size:18px;text-decoration:none;color:var(--ink)}
-  .nav a.cta{font-size:14px;font-weight:650;text-decoration:none;background:var(--ink);color:#fff;
-    padding:9px 14px;border-radius:7px}
-  .hero{padding:64px 0 46px}
-  .eyebrow{display:inline-block;font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;
-    color:var(--accent);background:var(--accent-soft);padding:6px 10px;border-radius:999px;margin-bottom:18px}
-  h1{font-size:clamp(34px,6vw,60px);line-height:1.02;letter-spacing:-.045em;margin:0 0 20px;max-width:820px}
-  .lede{font-size:clamp(17px,2.4vw,21px);color:var(--muted);max-width:700px;margin:0 0 28px}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 22px}
+  header{padding:18px 0;border-bottom:1px solid var(--line);position:sticky;top:0;background:color-mix(in srgb, var(--bg) 92%, transparent);backdrop-filter:blur(10px);z-index:20}
+  .nav{display:flex;align-items:center;justify-content:space-between;gap:14px}
+  .brand{font-weight:800;letter-spacing:-.03em;font-size:18px;text-decoration:none;color:var(--ink);white-space:nowrap}
+  .nav-right{display:flex;align-items:center;gap:10px;min-width:0}
+  .nav-links{display:flex;align-items:center;gap:18px;margin-right:4px}
+  .nav-links a{color:var(--muted);text-decoration:none;font-size:14px;font-weight:600}
+  .nav-links a:hover{color:var(--ink)}
+  .theme-toggle{border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:8px;padding:8px 11px;font:600 13px/1 inherit;cursor:pointer;white-space:nowrap}
+  .nav a.cta{font-size:13.5px;font-weight:700;text-decoration:none;background:var(--ink);color:var(--bg);padding:9px 13px;border-radius:8px;white-space:nowrap}
+  .hero{padding:58px 0 40px;position:relative}
+  .hero:before{content:"";position:absolute;inset:0;pointer-events:none;
+    background:radial-gradient(600px 280px at 78% 0%, var(--accent-soft), transparent 70%);opacity:.8}
+  .hero > *{position:relative}
+  .eyebrow{display:inline-block;font-size:11.5px;font-weight:750;letter-spacing:.12em;text-transform:uppercase;
+    color:var(--accent);background:var(--accent-soft);padding:6px 10px;border-radius:999px;margin-bottom:16px}
+  h1{font-size:clamp(34px,5.8vw,60px);line-height:1.01;letter-spacing:-.045em;margin:0 0 18px;max-width:860px}
+  .lede{font-size:clamp(17px,2.2vw,21px);color:var(--muted);max-width:720px;margin:0 0 26px}
   .actions{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
-  .btn{display:inline-block;text-decoration:none;font-weight:700;padding:13px 20px;border-radius:8px;border:1px solid var(--ink)}
-  .btn.primary{background:var(--ink);color:#fff}
+  .btn{display:inline-block;text-decoration:none;font-weight:700;padding:13px 20px;border-radius:9px;border:1px solid var(--ink);text-align:center;max-width:100%}
+  .btn.primary{background:var(--ink);color:var(--bg)}
   .btn.secondary{background:transparent;color:var(--ink)}
-  .note{font-size:13px;color:var(--muted);margin-top:14px}
-  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px;margin:26px 0 0}
-  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:20px}
-  .card h3{margin:0 0 8px;font-size:16px;letter-spacing:-.01em}
+  .btn.small{padding:10px 15px;font-size:14px}
+  .note{font-size:13px;color:var(--muted);margin-top:13px}
+  .proof{display:flex;flex-wrap:wrap;gap:8px 18px;margin:24px 0 0;padding:0;list-style:none;font-size:13.5px;color:var(--muted)}
+  .proof li{display:flex;align-items:center;gap:7px}
+  .proof li:before{content:"";width:7px;height:7px;border-radius:50%;background:var(--accent);flex:0 0 auto}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px;margin:24px 0 0}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:13px;padding:20px;box-shadow:var(--shadow)}
+  .card h3{margin:0 0 7px;font-size:16px;letter-spacing:-.01em}
   .card p{margin:0;color:var(--muted);font-size:14.5px}
   section{padding:46px 0;border-top:1px solid var(--line)}
-  h2{font-size:clamp(24px,3.6vw,34px);letter-spacing:-.035em;line-height:1.12;margin:0 0 12px}
-  .sub{color:var(--muted);max-width:680px;margin:0 0 24px}
+  h2{font-size:clamp(24px,3.4vw,34px);letter-spacing:-.035em;line-height:1.1;margin:0 0 10px}
+  .sub{color:var(--muted);max-width:700px;margin:0 0 22px}
+  .table-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:13px;background:var(--card);box-shadow:var(--shadow)}
+  table{width:100%;border-collapse:collapse;min-width:720px}
+  th,td{text-align:left;padding:13px 14px;border-bottom:1px solid var(--line);vertical-align:top;font-size:13.5px}
+  th{font-size:10.5px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);background:var(--warm)}
+  tr:last-child td{border-bottom:0}
+  td.company{font-weight:700;white-space:nowrap}
+  td.line{color:var(--muted);min-width:280px}
+  td.src{white-space:nowrap;font-size:12.5px}
   ul.clean{list-style:none;padding:0;margin:0;display:grid;gap:12px}
   ul.clean li{padding-left:26px;position:relative}
-  ul.clean li:before{content:"";position:absolute;left:0;top:9px;width:9px;height:9px;border-radius:2px;
-    background:var(--accent);transform:rotate(45deg)}
-  .steps{counter-reset:step;display:grid;gap:14px;margin-top:20px}
-  .step{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px 20px 18px 64px;position:relative}
-  .step:before{counter-increment:step;content:counter(step);position:absolute;left:18px;top:16px;width:30px;height:30px;
-    border-radius:50%;background:var(--warm);display:grid;place-items:center;font-weight:800;font-size:14px}
+  ul.clean li:before{content:"";position:absolute;left:0;top:9px;width:9px;height:9px;border-radius:2px;background:var(--accent);transform:rotate(45deg)}
+  .steps{counter-reset:step;display:grid;gap:13px;margin-top:20px}
+  .step{background:var(--card);border:1px solid var(--line);border-radius:13px;padding:18px 20px 18px 64px;position:relative;box-shadow:var(--shadow)}
+  .step:before{counter-increment:step;content:counter(step);position:absolute;left:18px;top:16px;width:30px;height:30px;border-radius:50%;background:var(--warm);display:grid;place-items:center;font-weight:800;font-size:14px}
   .step h3{margin:0 0 4px;font-size:16px}
   .step p{margin:0;color:var(--muted);font-size:14.5px}
-  .price{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px;margin-top:22px}
+  .step code{font-size:12.5px;background:var(--warm);padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}
+  .price{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px;margin-top:20px}
   .price .card{padding:24px}
-  .price .big{font-size:36px;font-weight:800;letter-spacing:-.04em;line-height:1}
+  .price .big{font-size:38px;font-weight:800;letter-spacing:-.045em;line-height:1}
   .price .small{font-size:13px;color:var(--muted);margin-top:8px}
   .rails{font-size:14px;color:var(--muted);margin-top:18px}
-  .contact{background:var(--ink);color:#fff;border-radius:14px;padding:30px;margin-top:8px}
-  .contact h2{color:#fff;margin-bottom:8px}
-  .contact p{color:#cfcfc8;margin:0 0 18px;max-width:640px}
-  .contact a.btn{background:#fff;color:var(--ink);border-color:#fff}
-  footer{padding:28px 0 40px;color:var(--muted);font-size:13px}
+  .faq{display:grid;gap:10px;margin-top:18px}
+  details{background:var(--card);border:1px solid var(--line);border-radius:11px;padding:15px 17px}
+  summary{cursor:pointer;font-weight:700;font-size:14.5px}
+  details p{margin:9px 0 0;color:var(--muted);font-size:14.5px}
+  .contact{background:var(--ink);color:var(--bg);border-radius:15px;padding:30px;margin-top:8px}
+  .contact h2{color:var(--bg);margin-bottom:8px}
+  .contact p{color:color-mix(in srgb, var(--bg) 72%, transparent);margin:0 0 18px;max-width:660px}
+  .contact a.btn{background:var(--bg);color:var(--ink);border-color:var(--bg)}
+  footer{padding:26px 0 38px;color:var(--muted);font-size:13px}
   .fine{font-size:12.5px;color:var(--muted);margin-top:12px}
-  @media(max-width:560px){.hero{padding:44px 0 34px}section{padding:34px 0}.contact{padding:22px}}
+  .kicker{font-size:12px;font-weight:750;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);margin-bottom:7px}
+  @media(max-width:760px){
+    .nav-links{display:none}
+    .hero{padding:40px 0 30px}
+    section{padding:34px 0}
+    .wrap{padding:0 18px}
+    .actions{flex-direction:column;align-items:stretch}
+    .actions .btn{width:100%}
+    .nav a.cta{padding:8px 10px;font-size:12.5px}
+    .theme-toggle{padding:8px 9px;font-size:12px}
+    .contact{padding:22px}
+    h1{font-size:clamp(32px,9.4vw,46px)}
+    .table-wrap{overflow:visible;border:0;background:transparent;box-shadow:none}
+    table{min-width:0;width:100%}
+    thead{display:none}
+    tbody,tr,td{display:block;width:100%}
+    tr{background:var(--card);border:1px solid var(--line);border-radius:12px;margin-bottom:10px;padding:14px 15px;box-shadow:var(--shadow)}
+    td{border:0;padding:4px 0;font-size:14px;white-space:normal}
+    td.company{font-size:16px}
+    td.line{min-width:0;color:var(--ink)}
+    td.src{white-space:normal}
+    td[data-label]:before{content:attr(data-label) ": ";color:var(--muted);font-weight:700;font-size:10.5px;text-transform:uppercase;letter-spacing:.07em}
+  }
+  @media(max-width:380px){
+    .brand{font-size:16px}
+    .nav-right{gap:7px}
+    .nav a.cta{font-size:11.5px;padding:7px 8px}
+    .theme-toggle{font-size:11px;padding:7px 8px}
+  }
 </style>
 </head>
 <body>
 <header>
   <div class="wrap nav">
     <a class="brand" href="#top">Pipeline Pack</a>
-    <a class="cta" href="mailto:xion.dev7@gmail.com?subject=Pipeline%20Pack%20sample%20request">Get the free sample</a>
+    <div class="nav-right">
+      <nav class="nav-links" aria-label="Sections">
+        <a href="#sample">Sample</a>
+        <a href="#order">How to order</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to dark theme">Dark</button>
+      <a class="cta" href="#order">Start an order</a>
+    </div>
   </div>
 </header>
 
 <main id="top">
   <div class="wrap hero">
     <span class="eyebrow">For US/UK ecommerce &amp; CRO agencies</span>
-    <h1>150 verified DTC leads your team can pitch next week.</h1>
-    <p class="lede">A ready-to-use lead pack: 150 DTC brands, 150 personalized first lines and a 3-email sequence — built from public pages, with a source URL and evidence for every row. Delivered 48 hours after deposit.</p>
+    <h1>150 DTC leads your agency can pitch tomorrow.</h1>
+    <p class="lede">150 DTC brands, 150 personalized first lines and a 3-email sequence — built from public pages, with a source URL and evidence for every row. Delivered 24 hours after payment clears.</p>
     <div class="actions">
       <a class="btn primary" href="sample-us-dtc.zip" download>Download 15 free sample leads</a>
-      <a class="btn secondary" href="mailto:xion.dev7@gmail.com?subject=Pipeline%20Pack%20question">Ask a question</a>
+      <a class="btn secondary" href="#order">See the order steps</a>
     </div>
     <p class="note">No signup. No card. The sample is a real CSV from the same pipeline as the paid pack.</p>
-
-    <div class="grid">
-      <div class="card"><h3>Evidence, not guesses</h3><p>Every lead carries the public page it came from and a supporting snippet. Unknown fields stay blank.</p></div>
-      <div class="card"><h3>Written for your pitch</h3><p>150 first lines quote the brand's own public copy, so your opening message has a real reason to exist.</p></div>
-      <div class="card"><h3>48-hour delivery</h3><p>Clean CSV, first lines, 3-email sequence and a one-page deliverability guide. One revision included.</p></div>
-    </div>
+    <ul class="proof">
+      <li>Source URL + evidence on every row</li>
+      <li>150 first lines written from public copy</li>
+      <li>24-hour delivery after payment</li>
+      <li>7-day invalid-email replacement</li>
+    </ul>
   </div>
 
-  <section>
+  <section id="sample">
     <div class="wrap">
-      <h2>What is in the pack</h2>
-      <p class="sub">Built for agencies that sell ecommerce growth and need a focused list without spending days on research.</p>
-      <ul class="clean">
-        <li><strong>150 DTC brands</strong> in your chosen category and market, deduplicated by domain.</li>
-        <li><strong>150 personalized first lines</strong> attributed to the brand's homepage or a public write-up.</li>
-        <li><strong>3-email sequence</strong> with a plain-text, one-link structure and a clear opt-out.</li>
-        <li><strong>Contact paths</strong> — published email where available, plus contact form or LinkedIn company page.</li>
-        <li><strong>Source URL + evidence snippet</strong> on every row, so you can check any claim yourself.</li>
-        <li><strong>Clean CSV + one-page deliverability guide.</strong></li>
-      </ul>
+      <div class="kicker">See the actual output</div>
+      <h2>Three rows from the current sample.</h2>
+      <p class="sub">No blurred screenshots. These are real rows from the free CSV — the same columns, sourcing and first-line style as the paid pack.</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Company</th><th>Market</th><th>Category</th><th>Personalized first line</th><th>Source</th></tr></thead>
+          <tbody>
+            <tr><td class="company">Alfred</td><td data-label="Market">US</td><td data-label="Category">Food &amp; beverage</td><td class="line" data-label="First line">Your homepage describes Alfred as “Known for specialty lattes, high-quality matcha, and fresh pastries.”</td><td class="src" data-label="Source"><a href="https://alfred.la/" rel="nofollow noopener" target="_blank">alfred.la</a></td></tr>
+            <tr><td class="company">Pip's Heirloom Snacks</td><td data-label="Market">US</td><td data-label="Category">Food &amp; beverage</td><td class="line" data-label="First line">Your homepage describes Pip's Heirloom Snacks as “Rediscover the classic snacks, all made with heirloom corn from family farms.”</td><td class="src" data-label="Source"><a href="https://pipsnacks.com/" rel="nofollow noopener" target="_blank">pipsnacks.com</a></td></tr>
+            <tr><td class="company">Welly</td><td data-label="Market">US</td><td data-label="Category">Consumer brands</td><td class="line" data-label="First line">Your homepage describes Welly as “First aid for when fun wins.”</td><td class="src" data-label="Source"><a href="https://getwelly.com/" rel="nofollow noopener" target="_blank">getwelly.com</a></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="note">The CSV also includes contact path, source URL, evidence snippet and country evidence. Emails are published or MX-verified where available; otherwise the row shows a contact form or LinkedIn company page.</p>
     </div>
   </section>
 
   <section>
     <div class="wrap">
-      <h2>How it works</h2>
-      <div class="steps">
-        <div class="step"><h3>1. Get the free sample</h3><p>15 real leads from the current pipeline, with the same columns as the paid pack.</p></div>
-        <div class="step"><h3>2. Confirm the ICP</h3><p>Category, market and any exclusions. I reply with the exact scope before payment.</p></div>
-        <div class="step"><h3>3. Pay the deposit</h3><p>50% upfront in crypto, or pay $134 upfront and save $15. A 30-minute quote locks the rate.</p></div>
-        <div class="step"><h3>4. Receive the pack in 48 hours</h3><p>Balance is due before the full CSV. One revision and a 7-day invalid-email replacement are included.</p></div>
+      <div class="kicker">What you receive</div>
+      <h2>A pack your team can use without cleaning it first.</h2>
+      <div class="grid">
+        <div class="card"><h3>150 DTC brands</h3><p>Chosen for your category and market, deduplicated by domain, with the public page that supports each row.</p></div>
+        <div class="card"><h3>150 first lines</h3><p>Each line quotes the brand's own homepage or a public write-up, so the opening message has a real reason to exist.</p></div>
+        <div class="card"><h3>3-email sequence</h3><p>Plain text, one link maximum, a clear opt-out and a follow-up schedule you can load into your sender.</p></div>
+        <div class="card"><h3>Contact paths</h3><p>Published email where available, plus contact form or LinkedIn company page. No guessed personal addresses sold as verified.</p></div>
+        <div class="card"><h3>Clean CSV + guide</h3><p>One CSV and a one-page deliverability guide. No spreadsheet cleanup, no mystery columns.</p></div>
+        <div class="card"><h3>One revision</h3><p>Swap categories or fix a scope issue once. Invalid emails are replaced free for 7 days after delivery.</p></div>
       </div>
     </div>
   </section>
 
-  <section>
+  <section id="order">
     <div class="wrap">
-      <h2>Simple pricing</h2>
-      <p class="sub">One fixed offer. No retainers, seats or usage fees.</p>
+      <div class="kicker">Exact order flow</div>
+      <h2>From email to paid pack in four steps.</h2>
+      <p class="sub">There is no checkout widget because payment is crypto-only. The quote is a real invoice with a locked rate, address, memo and QR code.</p>
+      <div class="steps">
+        <div class="step"><h3>1. Send the scope</h3><p>Email <a href="mailto:xion.dev7@gmail.com?subject=Pipeline%20Pack%20order&amp;body=Category%3A%0AMarket%3A%20US%20%2F%20UK%0AExclusions%3A%0AWhat%20I%20sell%3A">xion.dev7@gmail.com</a> with your category, market and any exclusions. I reply with the exact scope and whether the public evidence is strong enough. If it is not, I say so before you pay.</p></div>
+        <div class="step"><h3>2. Receive a 30-minute quote</h3><p>You get an invoice with the USD price, the crypto amount, the receive address, a memo/reference and a QR code. The rate is locked for 30 minutes; if it expires, I reissue it.</p></div>
+        <div class="step"><h3>3. Pay the deposit or pay upfront</h3><p><strong>$149</strong>: 50% deposit now, 50% before the full CSV. <strong>$134</strong>: paid upfront, save $15. Pay in SOL, ETH on L1/Base, BTC on-chain or Lightning, shielded ZEC, or XMR. Send the txid after paying.</p></div>
+        <div class="step"><h3>4. Verification, then delivery</h3><p>I check the transaction on-chain (or confirm shielded ZEC/Lightning/XMR with you) and deliver the pack within <strong>24 hours</strong> of cleared payment. The balance is due before the full CSV on the 50/50 option.</p></div>
+      </div>
+      <div class="actions" style="margin-top:20px">
+        <a class="btn primary" href="mailto:xion.dev7@gmail.com?subject=Pipeline%20Pack%20order&amp;body=Category%3A%0AMarket%3A%20US%20%2F%20UK%0AExclusions%3A%0AWhat%20I%20sell%3A">Start an order by email</a>
+        <a class="btn secondary" href="sample-us-dtc.zip" download>Check the sample first</a>
+      </div>
+      <p class="note">No payment is marked received because someone says they sent it. A txid plus an on-chain check is required; shielded ZEC, Lightning and XMR need explicit confirmation.</p>
+    </div>
+  </section>
+
+  <section id="pricing">
+    <div class="wrap">
+      <div class="kicker">Pricing</div>
+      <h2>One fixed offer. No retainers.</h2>
       <div class="price">
         <div class="card">
           <div class="big">$149</div>
@@ -128,20 +222,36 @@
         <div class="card">
           <div class="big">$134</div>
           <div class="small">Paid upfront — save $15</div>
-          <p style="margin-top:14px">Same pack, same 48-hour delivery after payment clears.</p>
+          <p style="margin-top:14px">Same pack, same 24-hour delivery after payment clears.</p>
         </div>
       </div>
-      <p class="rails"><strong>Payments:</strong> SOL, ETH on L1/Base, BTC on-chain or Lightning, shielded ZEC, XMR. No cards, stablecoins, Stripe, PayPal or marketplaces. A payment is confirmed only after an on-chain check, or explicit human confirmation for shielded ZEC, Lightning or XMR.</p>
+      <p class="rails"><strong>Accepted rails:</strong> SOL, ETH on L1/Base, BTC on-chain or Lightning, shielded ZEC, XMR. No cards, stablecoins, Stripe, PayPal or marketplaces.</p>
+    </div>
+  </section>
+
+  <section id="faq">
+    <div class="wrap">
+      <div class="kicker">Questions</div>
+      <h2>What buyers usually ask.</h2>
+      <div class="faq">
+        <details><summary>Are the emails verified?</summary><p>Every address is checked for syntax and a valid mail exchanger. Published addresses are preferred. Where SMTP proof is unavailable, the row is marked accordingly; inferred addresses are not sold as verified. If an email bounces, it is replaced free for 7 days.</p></details>
+        <details><summary>Do you scrape LinkedIn personal profiles?</summary><p>No. LinkedIn is a manual DM channel using public company pages only. The CSV uses public company sites, published contact addresses and contact forms.</p></details>
+        <details><summary>Can I choose a category or market?</summary><p>Yes. Tell me the category, market and exclusions. I confirm the scope against public evidence before payment. If there are not enough strong rows, I will not take the order.</p></details>
+        <details><summary>Are the first lines AI-generated?</summary><p>They are deterministic quotes from public pages, with the source URL stored next to each line. A model is optional for non-PII copy only; it is not allowed to invent clients, metrics or observations.</p></details>
+        <details><summary>How does payment work?</summary><p>Email the scope, receive a 30-minute crypto invoice, pay the deposit or upfront amount, send the txid, and the pack is delivered within 24 hours of cleared payment. No cards or stablecoins.</p></details>
+        <details><summary>What if I need a revision?</summary><p>One revision is included. Invalid email addresses are replaced free for 7 days after delivery.</p></details>
+      </div>
     </div>
   </section>
 
   <section>
     <div class="wrap">
       <div class="contact">
-        <h2>Start with the free 15-lead sample.</h2>
-        <p>Tell me the category and market you sell to. I’ll send the sample and confirm whether the full pack is a fit — no obligation.</p>
+        <div class="kicker" style="color:var(--accent)">Start with the free sample</div>
+        <h2>Tell me the category and market.</h2>
+        <p>I’ll send the 15-lead sample and confirm whether the full pack is a fit. No obligation, no signup.</p>
         <a class="btn" href="mailto:xion.dev7@gmail.com?subject=Pipeline%20Pack%20sample%20request&amp;body=Category%3A%0AMarket%3A%20US%20%2F%20UK%0AWhat%20I%20sell%3A">Email xion.dev7@gmail.com</a>
-        <p class="fine">Independent project by Xion Wang. Every lead is traceable to a public page. No fabricated contacts, clients or metrics.</p>
+        <p class="fine" style="color:color-mix(in srgb, var(--bg) 62%, transparent)">Independent project by Xion Wang. Every lead is traceable to a public page. No fabricated contacts, clients or metrics.</p>
       </div>
     </div>
   </section>
@@ -152,5 +262,26 @@
     Pipeline Pack · <a href="mailto:xion.dev7@gmail.com">xion.dev7@gmail.com</a> · <a href="sample-us-dtc.zip" download>Free sample CSV</a>
   </div>
 </footer>
+
+<script>
+  (function(){
+    var root=document.documentElement, btn=document.getElementById('theme-toggle');
+    var saved=localStorage.getItem('pp-theme');
+    if(saved==='dark'||saved==='light') root.setAttribute('data-theme',saved);
+    function label(){
+      var dark=root.getAttribute('data-theme')==='dark';
+      btn.textContent=dark?'Light':'Dark';
+      btn.setAttribute('aria-label',dark?'Switch to light theme':'Switch to dark theme');
+      btn.setAttribute('aria-pressed',dark?'true':'false');
+    }
+    btn.addEventListener('click',function(){
+      var next=root.getAttribute('data-theme')==='dark'?'light':'dark';
+      root.setAttribute('data-theme',next);
+      localStorage.setItem('pp-theme',next);
+      label();
+    });
+    label();
+  })();
+</script>
 </body>
 </html>
